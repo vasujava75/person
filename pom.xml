@@ -9,7 +9,8 @@
     <modules>
         <module>person-web</module>
 		<module>person-respository</module>
-	</modules>
+        <module>person-frontend</module>
+    </modules>
     <packaging>pom</packaging>
 
 	<name>person</name>

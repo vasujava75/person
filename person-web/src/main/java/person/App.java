@@ -2,9 +2,11 @@ package person;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 
-@SpringBootApplication 
+@SpringBootApplication
+@ComponentScan("com.rebo.person.respository")
 public class App 
 {
 	public static void main(String[] args) {
