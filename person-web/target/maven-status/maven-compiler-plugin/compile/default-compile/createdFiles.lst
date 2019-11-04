@@ -1,2 +1,3 @@
-person/App.class
-person/rest/controller/PersonController.class
+com/rebo/person/RestConfig.class
+com/rebo/person/App.class
+com/rebo/person/rest/controller/PersonController.class

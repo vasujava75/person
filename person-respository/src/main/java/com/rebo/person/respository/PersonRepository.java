@@ -10,5 +10,4 @@ import java.util.List;
 @Repository
 public interface PersonRepository extends JpaRepository<Person, Long> {
     Person findByLastNameAndFirstName( @Param("lastName") String lastName, @Param("firstname") String firstname);
-    Person findById();
 }

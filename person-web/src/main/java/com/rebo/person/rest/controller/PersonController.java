@@ -1,4 +1,4 @@
-package person.rest.controller;
+package com.rebo.person.rest.controller;
 
 import com.rebo.person.domain.Person;
 import com.rebo.person.respository.PersonRepository;

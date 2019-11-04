@@ -1,2 +1,3 @@
+com/rebo/person/PersistConfig.class
 com/rebo/person/domain/Person.class
 com/rebo/person/respository/PersonRepository.class
