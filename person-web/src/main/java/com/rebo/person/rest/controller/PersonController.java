@@ -44,7 +44,7 @@ public class PersonController {
 
 	@GetMapping("/{firstname}/{lastname}")
 	public Person getById(@PathVariable("lastname") String lastname,@PathVariable("lastname") String firstname){
-		return personRepository.findByLastNameAndFirstName(lastname,firstname);
+		return personRepository.findByLastnameAndFirstname(lastname,firstname);
 	}
 
 }

@@ -7,8 +7,8 @@
     <column name="id" type="bigint">
         <constraints primaryKey="true" nullable="false"/>
     </column>
-    <column name="firstName" type="varchar(20)"/>
-    <column name="lastName" type="varchar(20)"/>
+    <column name="firstname" type="varchar(20)"/>
+    <column name="lastname" type="varchar(20)"/>
     <column name="dob" type="varchar(10)"/>
     <column name="address" type="varchar(70)"/>
 </createTable>
